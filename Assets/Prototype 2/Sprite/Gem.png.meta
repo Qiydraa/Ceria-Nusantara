@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 48352d1ac69c24543b46086b628e49d4
+guid: d6b949288d53869478a0e69601788a83
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7238455262536764622
-    second: karakter 1 baju adat_0
+      213: -4080278737599844964
+    second: Gem_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: karakter 1 baju adat_0
+      name: Gem_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 25
-        width: 242
-        height: 448
+        x: 0
+        y: 15
+        width: 500
+        height: 470
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecc8f06d5b8247460800000000000000
-      internalID: 7238455262536764622
+      spriteID: c9d28cc3b10ff57c0800000000000000
+      internalID: -4080278737599844964
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      karakter 1 baju adat_0: 7238455262536764622
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
