@@ -1,2 +1,2 @@
-# Sampan-Budaya
+# Ceria Nusantara
 Game Tugas Akhir
