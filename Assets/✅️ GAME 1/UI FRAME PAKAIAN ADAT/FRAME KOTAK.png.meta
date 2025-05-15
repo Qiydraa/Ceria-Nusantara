@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FRAME KOTAK_0: 2529899231944500397
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CENG CENGAN BALI TP_0: 5771675895796981285
+      CENG CENGAN BALI TP_1: 8371986252525809480
+      CENG CENGAN BALI TP_2: 6173479294532137788
+      CENG CENGAN BALI TP_3: 3505379887495895645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

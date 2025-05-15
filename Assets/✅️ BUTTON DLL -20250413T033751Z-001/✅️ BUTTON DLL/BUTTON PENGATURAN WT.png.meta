@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BUTTON PENGATURAN WT_0: -8756423897039744882
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      YOGYAKARTA_0: 8979008436202835199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

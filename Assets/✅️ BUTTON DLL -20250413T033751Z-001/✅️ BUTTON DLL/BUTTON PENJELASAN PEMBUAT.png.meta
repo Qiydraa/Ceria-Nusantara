@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BUTTON PENJELASAN PEMBUAT_0: -2339204058849474900
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UI GAME 2 Vol.2 TP_0: -5708585157795011181
+      UI GAME 2 Vol.2 TP_1: 4911017575186347329
+      UI GAME 2 Vol.2 TP_2: 2354177514006909650
+      UI GAME 2 Vol.2 TP_3: -2737564824559717805
+      UI GAME 2 Vol.2 TP_4: 8201980908494310170
+      UI GAME 2 Vol.2 TP_5: -8487734526223903063
+      UI GAME 2 Vol.2 TP_6: 2046164704062274526
+      UI GAME 2 Vol.2 TP_7: 3046178059725012085
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

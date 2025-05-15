@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BUTTON KELUAR WT_0: -3300591510888881649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
