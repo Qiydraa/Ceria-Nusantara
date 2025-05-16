@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PAPUA-06_0: 1677952241195211749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

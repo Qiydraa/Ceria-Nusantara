@@ -1,0 +1,12 @@
+# ninja log v5
+88	861	7690170272273512	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	85c35f62b0e4b42c
+868	1358	7690170276518442	C:/Users/Asus/Documents/bejo/Ceria-Nusantara/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3ao4d3m4/obj/arm64-v8a/libswappywrapper.so	78805efed858328d
+42	5075	7690170311139026	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	63fd0fd115381958
+62	17197	7690170435036567	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	5e4d3e3e0a0a9a76
+10	17286	7690170436243520	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3e4895d455aec0b4
+52	17311	7690170436228441	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	80fd71baa925adc4
+73	17399	7690170437536445	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	3fb84aed61f31fb7
+1	17417	7690170437826199	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	919e29cc34bc95de
+31	17471	7690170438430599	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ddb653e0831c031b
+20	17578	7690170439164776	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	149642a3470ceee9
+17578	17844	7690170442215310	C:/Users/Asus/Documents/bejo/Ceria-Nusantara/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3ao4d3m4/obj/arm64-v8a/libgame.so	ac144a4104615d6b
