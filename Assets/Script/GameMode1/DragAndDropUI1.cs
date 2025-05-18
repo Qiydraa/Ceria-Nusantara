@@ -71,6 +71,9 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         {
             Debug.Log("✅ Berhasil ditempel ke zona: " + nearestMatch.name);
             AttachTo(nearestMatch.transform);
+
+            // ✅ Cek apakah semua sudah cocok
+            FindObjectOfType<ContentManager>()?.CheckCompletion();
         }
         else
         {
@@ -78,10 +81,13 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         }
     }
 
-    public void AttachTo(Transform parent)
+        public void AttachTo(Transform parent)
     {
         transform.SetParent(parent);
         rectTransform.localPosition = Vector3.zero;
+
+        // Pastikan item tetap aktif meski parentnya (konten lama) di-nonaktifkan
+        gameObject.SetActive(true);
     }
 
     public void ReturnToStart()

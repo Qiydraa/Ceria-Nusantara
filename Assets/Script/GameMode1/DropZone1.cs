@@ -8,6 +8,7 @@ public class DropZone1 : MonoBehaviour
     public string region; // Contoh: "Bali"
     public string slot;   // Contoh: "Head"
 
+
     private void OnEnable()
     {
         AllZones.Add(this);
@@ -17,4 +18,5 @@ public class DropZone1 : MonoBehaviour
     {
         AllZones.Remove(this);
     }
+
 }
