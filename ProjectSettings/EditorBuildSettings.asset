@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneLypSyc.unity
     guid: f3abf6fe9da852a48bb41ebaae235559
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: a76e079d6b8245a4db97735f4d879f68
+  - enabled: 1
+    path: Assets/Scenes/Mode Awal.unity
+    guid: 0ca570e58034481409750b1236991f5f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
