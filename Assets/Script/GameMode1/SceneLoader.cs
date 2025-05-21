@@ -8,7 +8,7 @@ public class SceneLoader : MonoBehaviour
     public class SceneButton
     {
         public Button button;
-        public string sceneName; // isi "EXIT" jika ingin keluar dari aplikasi
+        public string sceneName; 
     }
 
     public SceneButton[] sceneButtons;
@@ -19,7 +19,6 @@ public class SceneLoader : MonoBehaviour
         {
             string sceneToLoad = sb.sceneName;
 
-            // Tambahkan listener ke button
             if (sceneToLoad.ToUpper() == "EXIT")
             {
                 sb.button.onClick.AddListener(QuitGame);
@@ -48,9 +47,9 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Quit Game");
 
 #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false; // Stop game in editor
+        UnityEditor.EditorApplication.isPlaying = false; 
 #else
-        Application.Quit(); // Quit game in build
+        Application.Quit(); 
 #endif
     }
 }

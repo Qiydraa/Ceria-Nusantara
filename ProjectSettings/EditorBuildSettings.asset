@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mode Awal.unity
     guid: 0ca570e58034481409750b1236991f5f
+  - enabled: 1
+    path: Assets/Scenes/Menu Level.unity
+    guid: 319a7d87ba277b4488257ddd05cd156c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
