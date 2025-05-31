@@ -15,6 +15,11 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public float snapDistance = 100f; // jarak maksimum untuk menempel
 
+    [Header("SFX")]
+    public AudioClip correctSFX;
+    public AudioClip wrongSFX;
+    private AudioSource audioSource;
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -22,12 +27,21 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         canvas = GetComponentInParent<Canvas>();
         originalPosition = rectTransform.localPosition;
         originalParent = transform.parent;
+
+        // Inisialisasi AudioSource dari kamera utama
+        audioSource = Camera.main.GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            GameObject audioObj = new GameObject("Audio Source");
+            audioObj.transform.SetParent(Camera.main.transform);
+            audioSource = audioObj.AddComponent<AudioSource>();
+        }
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = false;
-        transform.SetParent(canvas.transform); // agar di atas UI
+        transform.SetParent(canvas.transform); // agar di atas UI lain
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -44,9 +58,7 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        canvasGroup.blocksRaycasts = true;
-
-        // 🔍 Cek semua drop zone secara manual
+        // Cari drop zone terdekat yang cocok
         DropZone1 nearestMatch = null;
         float nearestDistance = float.MaxValue;
 
@@ -72,21 +84,31 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             Debug.Log("✅ Berhasil ditempel ke zona: " + nearestMatch.name);
             AttachTo(nearestMatch.transform);
 
-            // ✅ Cek apakah semua sudah cocok
+            // 🔊 Mainkan suara benar
+            if (correctSFX != null && audioSource != null)
+                audioSource.PlayOneShot(correctSFX);
+
+            // Cek apakah semua item sudah cocok
             FindObjectOfType<ContentManager>()?.CheckCompletion();
         }
         else
         {
+            Debug.Log("❌ Tidak cocok, kembali ke posisi awal.");
             ReturnToStart();
+
+            // 🔊 Mainkan suara salah
+            if (wrongSFX != null && audioSource != null)
+                audioSource.PlayOneShot(wrongSFX);
         }
+
+        // Pastikan raycast diaktifkan kembali
+        canvasGroup.blocksRaycasts = true;
     }
 
-        public void AttachTo(Transform parent)
+    public void AttachTo(Transform parent)
     {
         transform.SetParent(parent);
         rectTransform.localPosition = Vector3.zero;
-
-        // Pastikan item tetap aktif meski parentnya (konten lama) di-nonaktifkan
         gameObject.SetActive(true);
     }
 
@@ -94,5 +116,7 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     {
         transform.SetParent(originalParent);
         rectTransform.localPosition = originalPosition;
+        gameObject.SetActive(true); // pastikan aktif
+        canvasGroup.blocksRaycasts = true; // pastikan bisa di-drag lagi
     }
 }
