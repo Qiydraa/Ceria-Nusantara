@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "\u2705\uFE0F KARAKTER UTAMA MULUT_0": -3949690796916873945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
