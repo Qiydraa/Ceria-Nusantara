@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 0b6ac52b00ef0ba49a3a0785b2508fd2
+guid: 4e2987a19e9587e4e85aad4755606609
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4586257696060785688
-    second: Artboard 42_0
-  - first:
-      213: -8290456163607706443
-    second: Artboard 42_1
+      213: -7615740190425607364
+    second: KEMBALI_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Artboard 42_0
+      name: KEMBALI_0
       rect:
         serializedVersion: 2
-        x: 387
-        y: 409
-        width: 196
-        height: 220
+        x: 0
+        y: 0
+        width: 1036
+        height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 814ca165319a5af30800000000000000
-      internalID: 4586257696060785688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Artboard 42_1
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 244
-        width: 521
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b4073e3b0262fc80800000000000000
-      internalID: -8290456163607706443
+      spriteID: c33140095a47f4690800000000000000
+      internalID: -7615740190425607364
       vertices: []
       indices: 
       edges: []
@@ -172,9 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Artboard 42_0: 4586257696060785688
-      Artboard 42_1: -8290456163607706443
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

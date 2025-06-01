@@ -298,6 +298,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: trousers
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!225 &54598285
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -527,6 +529,8 @@ MonoBehaviour:
   itemRegion: Papua
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &318395865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1170,6 +1174,8 @@ MonoBehaviour:
   itemRegion: Jawa Tengah
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &713406326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,6 +1366,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &793516665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,6 +1671,8 @@ MonoBehaviour:
   itemRegion: Bali
   targetSlot: Selendang
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &840525858
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,6 +2110,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: Body
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &1203255922
 GameObject:
   m_ObjectHideFlags: 0
@@ -2240,6 +2252,8 @@ MonoBehaviour:
   itemRegion: Bali
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &1247963861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2504,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &1437202912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,6 +2598,8 @@ MonoBehaviour:
   itemRegion: Jawa Tengah
   targetSlot: Body
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!225 &1437202918
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -2785,6 +2803,8 @@ MonoBehaviour:
   itemRegion: Jawa Tengah
   targetSlot: trousers
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &1574355036
 GameObject:
   m_ObjectHideFlags: 0
@@ -3152,6 +3172,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: trousers
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!225 &1717955923
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3418,6 +3440,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &1865829203
 GameObject:
   m_ObjectHideFlags: 0
@@ -3656,6 +3680,8 @@ MonoBehaviour:
   itemRegion: Bali
   targetSlot: Body
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!225 &1885231110
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3859,6 +3885,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1 &2025842924
 GameObject:
   m_ObjectHideFlags: 0
@@ -3990,6 +4018,8 @@ MonoBehaviour:
   itemRegion: Papua
   targetSlot: Head
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!225 &2052248823
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4305,6 +4335,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Body
   snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -150,7 +150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneButtons:
   - button: {fileID: 303726727}
-    sceneName: SceneLypSyc
+    sceneName: Level Mudah
+  - button: {fileID: 1845363109}
+    sceneName: Level Sedang
 --- !u!4 &92438340
 Transform:
   m_ObjectHideFlags: 0
