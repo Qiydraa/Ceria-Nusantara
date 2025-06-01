@@ -119,6 +119,112 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &25647963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25647964}
+  - component: {fileID: 25647968}
+  - component: {fileID: 25647967}
+  - component: {fileID: 25647966}
+  - component: {fileID: 25647965}
+  m_Layer: 0
+  m_Name: Kepala 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &25647964
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25647963}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1693700266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 130, y: -405.3}
+  m_SizeDelta: {x: 223.231, y: 87.603}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &25647965
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25647963}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &25647966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25647963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Papua
+  targetSlot: Head
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!114 &25647967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25647963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 7542702733476571074, guid: fb60427da024b224a9a2c6f30863366f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &25647968
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25647963}
+  m_CullTransparentMesh: 1
 --- !u!1 &39327253
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,8 +251,8 @@ Transform:
   m_GameObject: {fileID: 39327253}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -457.82, y: -672.63, z: 8.3759}
-  m_LocalScale: {x: 0.008543166, y: 0.008543166, z: 0.008543166}
+  m_LocalPosition: {x: -461.6341, y: -672.27057, z: 8.3759}
+  m_LocalScale: {x: 0.013531521, y: 0.013531521, z: 0.013531521}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 453070556}
@@ -439,7 +545,7 @@ GameObject:
   - component: {fileID: 225282566}
   - component: {fileID: 225282569}
   m_Layer: 0
-  m_Name: U_BNG
+  m_Name: baju 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -461,8 +567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -488, y: -356}
-  m_SizeDelta: {x: 168.6216, y: 100}
+  m_AnchoredPosition: {x: -648, y: -355.84}
+  m_SizeDelta: {x: 191.89, y: 141.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &225282566
 CanvasGroup:
@@ -496,7 +602,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7542702733476571074, guid: fb60427da024b224a9a2c6f30863366f, type: 3}
+  m_Sprite: {fileID: 456238036481610844, guid: 0307338986e902546be7ce701dc3b150, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -526,11 +632,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Papua
-  targetSlot: Head
+  itemRegion: Jawa Tengah
+  targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1 &318395865
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +648,7 @@ GameObject:
   - component: {fileID: 318395866}
   - component: {fileID: 318395867}
   m_Layer: 0
-  m_Name: DropZonepapua
+  m_Name: DropZone papua Celana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,7 +670,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 348.76, y: -92}
+  m_AnchoredPosition: {x: 355, y: -200}
   m_SizeDelta: {x: 107.52, y: 78.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318395867
@@ -631,6 +737,218 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   region: DKI Jakarta
   slot: Head
+--- !u!1 &376116763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 376116764}
+  - component: {fileID: 376116768}
+  - component: {fileID: 376116767}
+  - component: {fileID: 376116766}
+  - component: {fileID: 376116765}
+  m_Layer: 0
+  m_Name: Celana 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &376116764
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376116763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2025842925}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 463.99, y: -401.8}
+  m_SizeDelta: {x: 138.66, y: 148.406}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &376116765
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376116763}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &376116766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376116763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Kalimantan
+  targetSlot: Celana
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!114 &376116767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376116763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -3325127188985004378, guid: b8ea0720484e88e489d361ff2ac98f6d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &376116768
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376116763}
+  m_CullTransparentMesh: 1
+--- !u!1 &445414972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 445414973}
+  - component: {fileID: 445414977}
+  - component: {fileID: 445414976}
+  - component: {fileID: 445414975}
+  - component: {fileID: 445414974}
+  m_Layer: 0
+  m_Name: Kepala 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &445414973
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445414972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1693700266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 393.9, y: -401.51}
+  m_SizeDelta: {x: 185.314, y: 95.186}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &445414974
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445414972}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &445414975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445414972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Kalimantan
+  targetSlot: Head
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!114 &445414976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445414972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 7940180811921313436, guid: 5e056c72af11f9c49a3e16a5f6f318ee, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &445414977
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445414972}
+  m_CullTransparentMesh: 1
 --- !u!1 &453070555
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +1021,56 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -224}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &479728220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479728221}
+  - component: {fileID: 479728222}
+  m_Layer: 0
+  m_Name: DropZoneKalimantan celana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &479728221
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479728220}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2025842925}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 330, y: -220}
+  m_SizeDelta: {x: 129.3262, y: 78.4012}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &479728222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479728220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  region: Jawa Tengah
+  slot: Celana
 --- !u!1 &547064184
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,8 +1105,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 354, y: -52}
-  m_SizeDelta: {x: 230, y: 270}
+  m_AnchoredPosition: {x: 350, y: -90}
+  m_SizeDelta: {x: 300, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &547064186
 MonoBehaviour:
@@ -806,12 +1174,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 742283852}
+  - {fileID: 812551593}
+  - {fileID: 696631834}
   - {fileID: 1227511244}
   - {fileID: 225282564}
   - {fileID: 1409312405}
-  - {fileID: 742283852}
-  - {fileID: 812551593}
   - {fileID: 1865829204}
+  - {fileID: 640921869}
   m_Father: {fileID: 1922460905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -819,6 +1189,112 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &590774655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 590774656}
+  - component: {fileID: 590774660}
+  - component: {fileID: 590774659}
+  - component: {fileID: 590774658}
+  - component: {fileID: 590774657}
+  m_Layer: 0
+  m_Name: baju 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &590774656
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590774655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2025842925}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -390, y: -402.7}
+  m_SizeDelta: {x: 164.832, y: 146.598}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &590774657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590774655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Kalimantan
+  targetSlot: Body
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!225 &590774658
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590774655}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &590774659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590774655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -3044986750992105960, guid: e0d025965db902d40861309d1cdf8fde, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &590774660
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590774655}
+  m_CullTransparentMesh: 1
 --- !u!1 &600322511
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +1411,7 @@ GameObject:
   - component: {fileID: 610731382}
   - component: {fileID: 610731381}
   m_Layer: 0
-  m_Name: C_P
+  m_Name: Karakter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -957,8 +1433,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355, y: -71}
-  m_SizeDelta: {x: 230, y: 400}
+  m_AnchoredPosition: {x: 350, y: -90}
+  m_SizeDelta: {x: 300, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610731381
 MonoBehaviour:
@@ -980,7 +1456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5205773468528233112, guid: e8d5dfbd3e74db7498d27502d6f0b74c, type: 3}
+  m_Sprite: {fileID: -2438172069303312357, guid: 7f0da3c8600b00d44a53e060e24c02a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1031,9 +1507,68 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 123, y: 0}
+  m_AnchoredPosition: {x: 0.0000076294, y: 80}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &640921868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640921869}
+  - component: {fileID: 640921871}
+  - component: {fileID: 640921870}
+  m_Layer: 0
+  m_Name: DropZone Celana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &640921869
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640921868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 556262809}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 330, y: -205}
+  m_SizeDelta: {x: 155.43, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &640921870
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640921868}
+  m_CullTransparentMesh: 1
+--- !u!114 &640921871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640921868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  region: DKI Jakarta
+  slot: Celana
 --- !u!1 &654034855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,6 +1605,112 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.00012207031}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &696631833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696631834}
+  - component: {fileID: 696631838}
+  - component: {fileID: 696631837}
+  - component: {fileID: 696631836}
+  - component: {fileID: 696631835}
+  m_Layer: 0
+  m_Name: celana 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &696631834
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696631833}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 556262809}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 659, y: -408}
+  m_SizeDelta: {x: 126.66, y: 142.121}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &696631835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696631833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Papua
+  targetSlot: Celana
+  snapDistance: 100
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
+--- !u!225 &696631836
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696631833}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &696631837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696631833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 9217039930892766436, guid: 8355a3221934c0c4b841220815bfa323, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &696631838
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696631833}
+  m_CullTransparentMesh: 1
 --- !u!1 &696680031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,7 +1725,7 @@ GameObject:
   - component: {fileID: 696680034}
   - component: {fileID: 696680037}
   m_Layer: 0
-  m_Name: Blangkon2
+  m_Name: baju 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,8 +1747,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353.9, y: -414}
-  m_SizeDelta: {x: 142.8369, y: 100}
+  m_AnchoredPosition: {x: -674, y: -414.5}
+  m_SizeDelta: {x: 195, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &696680034
 CanvasGroup:
@@ -1141,7 +1782,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6302431457524647311, guid: ed16be7ec9d948242b9e81d97d215ef3, type: 3}
+  m_Sprite: {fileID: -2371256439762698940, guid: e33983b705ce23e449fb7bf8cf889a3e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1171,8 +1812,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Jawa Tengah
-  targetSlot: Head
+  itemRegion: Bali
+  targetSlot: Body
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
@@ -1187,7 +1828,7 @@ GameObject:
   - component: {fileID: 713406327}
   - component: {fileID: 713406328}
   m_Layer: 0
-  m_Name: DropZoneKalimantan
+  m_Name: DropZoneKalimantan Baju
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1209,7 +1850,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353.05273, y: 77}
+  m_AnchoredPosition: {x: 330, y: -105}
   m_SizeDelta: {x: 129.3262, y: 78.4012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &713406328
@@ -1224,8 +1865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  region: Kalimantan
-  slot: Head
+  region: Jawa Tengah
+  slot: Body
 --- !u!1 &730151630
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,7 +1917,7 @@ GameObject:
   - component: {fileID: 742283854}
   - component: {fileID: 742283857}
   m_Layer: 0
-  m_Name: U_RK
+  m_Name: Celana 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1298,8 +1939,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 244, y: -379}
-  m_SizeDelta: {x: 123, y: 100}
+  m_AnchoredPosition: {x: 166, y: -406}
+  m_SizeDelta: {x: 117.312, y: 142.081}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &742283854
 CanvasGroup:
@@ -1333,7 +1974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7940180811921313436, guid: 5e056c72af11f9c49a3e16a5f6f318ee, type: 3}
+  m_Sprite: {fileID: -2528731633339168498, guid: 02a33c52c991c2d4ca9017e86bfd3e32, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1363,11 +2004,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Kalimantan
-  targetSlot: Head
+  itemRegion: DKI Jakarta
+  targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1 &793516665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,8 +2035,8 @@ Transform:
   m_GameObject: {fileID: 793516665}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -457.76, y: -673.42, z: 8.3759}
-  m_LocalScale: {x: 0.008543166, y: 0.008543166, z: 0.008543166}
+  m_LocalPosition: {x: -461.5391, y: -673.5219, z: 8.3759}
+  m_LocalScale: {x: 0.013531521, y: 0.013531521, z: 0.013531521}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 453070556}
@@ -1467,7 +2108,7 @@ GameObject:
   - component: {fileID: 795795321}
   - component: {fileID: 795795320}
   m_Layer: 0
-  m_Name: C_K
+  m_Name: Karakter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1489,8 +2130,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 351, y: -47}
-  m_SizeDelta: {x: 230, y: 270}
+  m_AnchoredPosition: {x: 330, y: -90}
+  m_SizeDelta: {x: 300, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &795795320
 MonoBehaviour:
@@ -1512,7 +2153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -9027150868393999824, guid: f3b8792744c21b947aa0d3c9e246a72e, type: 3}
+  m_Sprite: {fileID: -1132003540370598967, guid: 7e8f42a2236417847a31b3d904d1fbfa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1540,7 +2181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798232526}
   m_Layer: 0
-  m_Name: Content_Kalimantan
+  m_Name: Content_Jawa Tengah_ Laki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1581,7 +2222,7 @@ GameObject:
   - component: {fileID: 812551595}
   - component: {fileID: 812551598}
   m_Layer: 0
-  m_Name: U_S
+  m_Name: celana 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1603,8 +2244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 475, y: -437}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 422, y: -405.98}
+  m_SizeDelta: {x: 126.66, y: 142.121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &812551595
 CanvasGroup:
@@ -1638,7 +2279,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2810301559017151299, guid: 5fc69b6265e07914bb90074ec97ba729, type: 3}
+  m_Sprite: {fileID: -3325127188985004378, guid: b8ea0720484e88e489d361ff2ac98f6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1668,11 +2309,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Bali
-  targetSlot: Selendang
+  itemRegion: Kalimantan
+  targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1 &840525858
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,8 +2340,8 @@ Transform:
   m_GameObject: {fileID: 840525858}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -453.72, y: -673.04, z: 8.3759}
-  m_LocalScale: {x: 0.008543166, y: 0.008543166, z: 0.008543166}
+  m_LocalPosition: {x: -455.14, y: -672.92, z: 8.3759}
+  m_LocalScale: {x: 0.013531521, y: 0.013531521, z: 0.013531521}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 453070556}
@@ -1771,6 +2412,8 @@ GameObject:
   - component: {fileID: 854373353}
   - component: {fileID: 854373352}
   - component: {fileID: 854373351}
+  - component: {fileID: 854373354}
+  - component: {fileID: 854373355}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1820,7 +2463,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -1852,6 +2495,147 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &854373354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854373350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!82 &854373355
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854373350}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &856788841
 GameObject:
   m_ObjectHideFlags: 0
@@ -1966,7 +2750,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 330, y: -90}
-  m_SizeDelta: {x: 230, y: 350}
+  m_SizeDelta: {x: 300, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &976775292
 MonoBehaviour:
@@ -1988,7 +2772,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1311372208060775493, guid: ec6a4488076196648ab669aba3e8235a, type: 3}
+  m_Sprite: {fileID: 1056819093101323932, guid: de2508690cbd7654c98cc0fad1e86e2f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2006,6 +2790,162 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976775290}
   m_CullTransparentMesh: 1
+--- !u!1 &1007169743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007169744}
+  - component: {fileID: 1007169748}
+  - component: {fileID: 1007169747}
+  - component: {fileID: 1007169746}
+  - component: {fileID: 1007169745}
+  m_Layer: 0
+  m_Name: Baju 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1007169744
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007169743}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1682348894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -128, y: -411.43}
+  m_SizeDelta: {x: 209.395, y: 141.14}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1007169745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007169743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Jawa Tengah
+  targetSlot: Body
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!225 &1007169746
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007169743}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1007169747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007169743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 456238036481610844, guid: 0307338986e902546be7ce701dc3b150, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1007169748
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007169743}
+  m_CullTransparentMesh: 1
+--- !u!1 &1106489363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1106489364}
+  - component: {fileID: 1106489365}
+  m_Layer: 0
+  m_Name: DropZone papua Kepala
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1106489364
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106489363}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1693700266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 356, y: 130}
+  m_SizeDelta: {x: 107.52, y: 78.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1106489365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106489363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  region: Bali
+  slot: Body
 --- !u!1 &1114754829
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,6 +3052,112 @@ MonoBehaviour:
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
+--- !u!1 &1179990091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179990092}
+  - component: {fileID: 1179990096}
+  - component: {fileID: 1179990095}
+  - component: {fileID: 1179990094}
+  - component: {fileID: 1179990093}
+  m_Layer: 0
+  m_Name: Kepala 2 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1179990092
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179990091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1693700266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 661, y: -409.09}
+  m_SizeDelta: {x: 185.314, y: 95.186}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1179990093
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179990091}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1179990094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179990091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: DKI Jakarta
+  targetSlot: Head
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!114 &1179990095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179990091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -9089860487595128337, guid: 8fa23889972b5b846a08dee28aa4a897, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1179990096
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179990091}
+  m_CullTransparentMesh: 1
 --- !u!1 &1203255922
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,7 +3168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1203255923}
   m_Layer: 0
-  m_Name: Character_JT
+  m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2162,7 +3208,7 @@ GameObject:
   - component: {fileID: 1227511246}
   - component: {fileID: 1227511249}
   m_Layer: 0
-  m_Name: U_B 1
+  m_Name: baju 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2184,8 +3230,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -28, y: -403}
-  m_SizeDelta: {x: 149, y: 89}
+  m_AnchoredPosition: {x: -110, y: -405.98}
+  m_SizeDelta: {x: 191.89, y: 121.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1227511246
 CanvasGroup:
@@ -2219,7 +3265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1155473857009307102, guid: 7def662921e52144d92825dff53dde66, type: 3}
+  m_Sprite: {fileID: -729592761123098003, guid: 0287c5d273754eb48b91e09a4ca0eb55, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2249,11 +3295,117 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Bali
-  targetSlot: Head
+  itemRegion: DKI Jakarta
+  targetSlot: Body
+  snapDistance: 100
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
+--- !u!1 &1245571058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1245571059}
+  - component: {fileID: 1245571063}
+  - component: {fileID: 1245571062}
+  - component: {fileID: 1245571061}
+  - component: {fileID: 1245571060}
+  m_Layer: 0
+  m_Name: Celana 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1245571059
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245571058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2025842925}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 713, y: -403.05}
+  m_SizeDelta: {x: 129.32, y: 138.321}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1245571060
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245571058}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1245571061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245571058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Kalimantan
+  targetSlot: Celana
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
+--- !u!114 &1245571062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245571058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -2528731633339168498, guid: 02a33c52c991c2d4ca9017e86bfd3e32, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1245571063
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245571058}
+  m_CullTransparentMesh: 1
 --- !u!1 &1247963861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2264,7 +3416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1247963862}
   m_Layer: 0
-  m_Name: Content_Papua
+  m_Name: Content_Papua_Laki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2414,7 +3566,7 @@ GameObject:
   - component: {fileID: 1409312407}
   - component: {fileID: 1409312410}
   m_Layer: 0
-  m_Name: U_PL
+  m_Name: Baju 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2436,8 +3588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -272, y: -408}
-  m_SizeDelta: {x: 138.83, y: 100}
+  m_AnchoredPosition: {x: -398, y: -405.84}
+  m_SizeDelta: {x: 196.469, y: 133.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1409312407
 CanvasGroup:
@@ -2471,7 +3623,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -9089860487595128337, guid: 8fa23889972b5b846a08dee28aa4a897, type: 3}
+  m_Sprite: {fileID: 5960643061307680861, guid: 6e9fd40d4869f00468056ade4352b8a3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2501,11 +3653,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: DKI Jakarta
-  targetSlot: Head
+  itemRegion: Yogyakarta
+  targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1 &1437202912
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,7 +3672,7 @@ GameObject:
   - component: {fileID: 1437202918}
   - component: {fileID: 1437202917}
   m_Layer: 0
-  m_Name: Beskap
+  m_Name: Celana 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2542,8 +3694,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217, y: -414}
-  m_SizeDelta: {x: 142.8369, y: 100}
+  m_AnchoredPosition: {x: 402, y: -414.06}
+  m_SizeDelta: {x: 129.33, y: 116.135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1437202915
 MonoBehaviour:
@@ -2565,7 +3717,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 456238036481610844, guid: 0307338986e902546be7ce701dc3b150, type: 3}
+  m_Sprite: {fileID: 7674728309307496601, guid: 06a4be476b7a00b428a20a079fc4a123, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2596,7 +3748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemRegion: Jawa Tengah
-  targetSlot: Body
+  targetSlot: Celana
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
@@ -2638,8 +3790,8 @@ Transform:
   m_GameObject: {fileID: 1504381712}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -453.7, y: -673.7, z: 8.3759}
-  m_LocalScale: {x: 0.11227151, y: 0.11227151, z: 0.11227151}
+  m_LocalPosition: {x: -455.15, y: -673.8, z: 8.3759}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 108995117}
@@ -2713,7 +3865,7 @@ GameObject:
   - component: {fileID: 1514962690}
   - component: {fileID: 1514962693}
   m_Layer: 0
-  m_Name: Sarung
+  m_Name: Celana 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2735,8 +3887,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69, y: -407}
-  m_SizeDelta: {x: 142.8369, y: 100}
+  m_AnchoredPosition: {x: 647, y: -414.06}
+  m_SizeDelta: {x: 130, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1514962690
 CanvasGroup:
@@ -2770,7 +3922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7674728309307496601, guid: 06a4be476b7a00b428a20a079fc4a123, type: 3}
+  m_Sprite: {fileID: -1090846633837446829, guid: 1fac0ca526b75da4e9491b640db9e688, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2800,11 +3952,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Jawa Tengah
-  targetSlot: trousers
+  itemRegion: Bali
+  targetSlot: Celana
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
+--- !u!1 &1535416403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1535416404}
+  - component: {fileID: 1535416405}
+  m_Layer: 0
+  m_Name: Dropzone celana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1535416404
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535416403}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1682348894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 350, y: -236}
+  m_SizeDelta: {x: 130, y: 78.4012}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1535416405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535416403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  region: Bali
+  slot: Celana
 --- !u!1 &1574355036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,7 +4017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574355037}
   m_Layer: 0
-  m_Name: Content_JawaTengah
+  m_Name: Content_Bali_Laki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2842,6 +4044,218 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1634453320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1634453321}
+  - component: {fileID: 1634453325}
+  - component: {fileID: 1634453324}
+  - component: {fileID: 1634453323}
+  - component: {fileID: 1634453322}
+  m_Layer: 0
+  m_Name: baju 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1634453321
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634453320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2025842925}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -110, y: -406}
+  m_SizeDelta: {x: 199.275, y: 132.416}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1634453322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634453320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Yogyakarta
+  targetSlot: Body
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!225 &1634453323
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634453320}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1634453324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634453320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5960643061307680861, guid: 6e9fd40d4869f00468056ade4352b8a3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1634453325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634453320}
+  m_CullTransparentMesh: 1
+--- !u!1 &1671514235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671514236}
+  - component: {fileID: 1671514240}
+  - component: {fileID: 1671514239}
+  - component: {fileID: 1671514238}
+  - component: {fileID: 1671514237}
+  m_Layer: 0
+  m_Name: Celana 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1671514236
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671514235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1682348894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 149, y: -414.5}
+  m_SizeDelta: {x: 112.583, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1671514237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671514235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Papua
+  targetSlot: Celana
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!225 &1671514238
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671514235}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1671514239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671514235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6759234698936679744, guid: 175ac270711e8414c9fa3762335d2d65, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1671514240
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671514235}
+  m_CullTransparentMesh: 1
 --- !u!1 &1682348893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,10 +4284,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 696680032}
   - {fileID: 1514962688}
   - {fileID: 1437202913}
+  - {fileID: 1671514236}
+  - {fileID: 696680032}
+  - {fileID: 1878375776}
+  - {fileID: 1007169744}
   - {fileID: 1898419552}
+  - {fileID: 1535416404}
   m_Father: {fileID: 1574355037}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2986,7 +4404,12 @@ RectTransform:
   m_Children:
   - {fileID: 2052248818}
   - {fileID: 1885231105}
+  - {fileID: 2048718197}
+  - {fileID: 25647964}
+  - {fileID: 445414973}
+  - {fileID: 1179990092}
   - {fileID: 318395866}
+  - {fileID: 1106489364}
   m_Father: {fileID: 1247963862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3054,7 +4477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1713918036}
   m_Layer: 0
-  m_Name: Character_K
+  m_Name: karakter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3094,7 +4517,7 @@ GameObject:
   - component: {fileID: 1717955922}
   - component: {fileID: 1717955923}
   m_Layer: 0
-  m_Name: Celana_K
+  m_Name: Celana 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3116,8 +4539,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224, y: -406}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 195.84, y: -401.8}
+  m_SizeDelta: {x: 139, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717955920
 MonoBehaviour:
@@ -3139,7 +4562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3325127188985004378, guid: b8ea0720484e88e489d361ff2ac98f6d, type: 3}
+  m_Sprite: {fileID: 7674728309307496601, guid: 06a4be476b7a00b428a20a079fc4a123, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3170,7 +4593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemRegion: Kalimantan
-  targetSlot: trousers
+  targetSlot: Celana
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
@@ -3221,7 +4644,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1.3342, y: -178.77814}
-  m_SizeDelta: {x: 1559.152, y: 125.7073}
+  m_SizeDelta: {x: 1700, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736248235
 MonoBehaviour:
@@ -3336,112 +4759,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1857496627
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1857496628}
-  - component: {fileID: 1857496632}
-  - component: {fileID: 1857496631}
-  - component: {fileID: 1857496630}
-  - component: {fileID: 1857496633}
-  m_Layer: 0
-  m_Name: IkatKepala_K2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1857496628
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857496627}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2025842925}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -237, y: -394}
-  m_SizeDelta: {x: 172.26, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!225 &1857496630
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857496627}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
---- !u!114 &1857496631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857496627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 7940180811921313436, guid: 5e056c72af11f9c49a3e16a5f6f318ee, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1857496632
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857496627}
-  m_CullTransparentMesh: 1
---- !u!114 &1857496633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857496627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemRegion: Kalimantan
-  targetSlot: Head
-  snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
 --- !u!1 &1865829203
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,7 +4771,7 @@ GameObject:
   - component: {fileID: 1865829205}
   - component: {fileID: 1865829207}
   m_Layer: 0
-  m_Name: udengDropZone
+  m_Name: DropZone Baju
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3476,7 +4793,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 331.69, y: 85}
+  m_AnchoredPosition: {x: 329, y: -85}
   m_SizeDelta: {x: 155.43, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865829205
@@ -3491,8 +4808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  region: Bali
-  slot: Head
+  region: DKI Jakarta
+  slot: Body
 --- !u!222 &1865829207
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3500,6 +4817,112 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865829203}
+  m_CullTransparentMesh: 1
+--- !u!1 &1878375775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878375776}
+  - component: {fileID: 1878375780}
+  - component: {fileID: 1878375779}
+  - component: {fileID: 1878375778}
+  - component: {fileID: 1878375777}
+  m_Layer: 0
+  m_Name: Baju 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1878375776
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878375775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1682348894}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -408, y: -407}
+  m_SizeDelta: {x: 199.91, y: 130.254}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1878375777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878375775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: DKI Jakarta
+  targetSlot: Body
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!225 &1878375778
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878375775}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1878375779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878375775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -729592761123098003, guid: 0287c5d273754eb48b91e09a4ca0eb55, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1878375780
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878375775}
   m_CullTransparentMesh: 1
 --- !u!1 &1878575403
 GameObject:
@@ -3527,8 +4950,8 @@ Transform:
   m_GameObject: {fileID: 1878575403}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -457.78, y: -673.08154, z: 8.3759}
-  m_LocalScale: {x: 0.008543166, y: 0.008543166, z: 0.008543166}
+  m_LocalPosition: {x: -461.5707, y: -672.9858, z: 8.3759}
+  m_LocalScale: {x: 0.013531521, y: 0.013531521, z: 0.013531521}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 453070556}
@@ -3602,7 +5025,7 @@ GameObject:
   - component: {fileID: 1885231109}
   - component: {fileID: 1885231110}
   m_Layer: 0
-  m_Name: A_Baju2
+  m_Name: celana 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3624,8 +5047,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 245, y: -401}
-  m_SizeDelta: {x: 100, y: 87.603}
+  m_AnchoredPosition: {x: -399, y: -405.3}
+  m_SizeDelta: {x: 128.438, y: 123.625}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885231107
 MonoBehaviour:
@@ -3647,7 +5070,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 326392344580106853, guid: d3cddad73c7a1b1438b0b8a6ddf3165a, type: 3}
+  m_Sprite: {fileID: -3325127188985004378, guid: b8ea0720484e88e489d361ff2ac98f6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3677,8 +5100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Bali
-  targetSlot: Body
+  itemRegion: Kalimantan
+  targetSlot: Celana
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
@@ -3705,7 +5128,7 @@ GameObject:
   - component: {fileID: 1898419552}
   - component: {fileID: 1898419553}
   m_Layer: 0
-  m_Name: Dropzone Benar
+  m_Name: Dropzone Baju
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3727,7 +5150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 353.05273, y: 76.99988}
+  m_AnchoredPosition: {x: 355, y: -135}
   m_SizeDelta: {x: 129.3262, y: 78.4012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898419553
@@ -3742,8 +5165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  region: Jawa Tengah
-  slot: Head
+  region: Bali
+  slot: Body
 --- !u!1 &1922460904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3754,7 +5177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1922460905}
   m_Layer: 0
-  m_Name: Content_Bali
+  m_Name: Content_DKI_Laki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3915,10 +5338,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2131152510}
   - {fileID: 1717955918}
-  - {fileID: 1857496628}
+  - {fileID: 376116764}
+  - {fileID: 1245571059}
+  - {fileID: 2131152510}
+  - {fileID: 590774656}
+  - {fileID: 1634453321}
   - {fileID: 713406327}
+  - {fileID: 479728221}
   m_Father: {fileID: 798232526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3926,6 +5353,112 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2048718196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048718197}
+  - component: {fileID: 2048718201}
+  - component: {fileID: 2048718200}
+  - component: {fileID: 2048718199}
+  - component: {fileID: 2048718198}
+  m_Layer: 0
+  m_Name: celana 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2048718197
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048718196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1693700266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -112, y: -402.97}
+  m_SizeDelta: {x: 130.334, y: 136.896}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &2048718198
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048718196}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &2048718199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048718196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemRegion: Jawa Tengah
+  targetSlot: Celana
+  snapDistance: 100
+  correctSFX: {fileID: 0}
+  wrongSFX: {fileID: 0}
+--- !u!114 &2048718200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048718196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 7674728309307496601, guid: 06a4be476b7a00b428a20a079fc4a123, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2048718201
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048718196}
+  m_CullTransparentMesh: 1
 --- !u!1 &2052248817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3940,7 +5473,7 @@ GameObject:
   - component: {fileID: 2052248822}
   - component: {fileID: 2052248823}
   m_Layer: 0
-  m_Name: A_Head
+  m_Name: celana 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3962,8 +5495,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93, y: -400}
-  m_SizeDelta: {x: 139.722, y: 100}
+  m_AnchoredPosition: {x: -682, y: -405.3}
+  m_SizeDelta: {x: 130.243, y: 132.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052248820
 MonoBehaviour:
@@ -3985,7 +5518,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7542702733476571074, guid: 890131681760de84090099629b85df3e, type: 3}
+  m_Sprite: {fileID: 6759234698936679744, guid: 175ac270711e8414c9fa3762335d2d65, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4016,7 +5549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemRegion: Papua
-  targetSlot: Head
+  targetSlot: Celana
   snapDistance: 100
   correctSFX: {fileID: 0}
   wrongSFX: {fileID: 0}
@@ -4095,8 +5628,8 @@ Transform:
   m_GameObject: {fileID: 2110335536}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -457.82, y: -672.24, z: 8.3759}
-  m_LocalScale: {x: 0.008543166, y: 0.008543166, z: 0.008543166}
+  m_LocalPosition: {x: -461.6341, y: -671.6528, z: 8.3759}
+  m_LocalScale: {x: 0.013531521, y: 0.013531521, z: 0.013531521}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 453070556}
@@ -4168,7 +5701,7 @@ GameObject:
   - component: {fileID: 2117732559}
   - component: {fileID: 2117732558}
   m_Layer: 0
-  m_Name: C_JT
+  m_Name: Karakter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4190,8 +5723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355, y: -45}
-  m_SizeDelta: {x: 230, y: 270}
+  m_AnchoredPosition: {x: 350, y: -90}
+  m_SizeDelta: {x: 300, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117732558
 MonoBehaviour:
@@ -4213,7 +5746,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2657239264075847785, guid: 9fa29a8f99d57c048a0f274c75809624, type: 3}
+  m_Sprite: {fileID: -5914918700923436592, guid: 9fc849e13260f2e4cb73709d79137b20, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4245,7 +5778,7 @@ GameObject:
   - component: {fileID: 2131152511}
   - component: {fileID: 2131152515}
   m_Layer: 0
-  m_Name: baju_K
+  m_Name: baju 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4267,8 +5800,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -406}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -701, y: -406}
+  m_SizeDelta: {x: 215, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &2131152511
 CanvasGroup:
@@ -4302,7 +5835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3044986750992105960, guid: e0d025965db902d40861309d1cdf8fde, type: 3}
+  m_Sprite: {fileID: 456238036481610844, guid: 0307338986e902546be7ce701dc3b150, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4332,7 +5865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ebe318aff7b734bbfdead6230ce02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemRegion: Kalimantan
+  itemRegion: Jawa Tengah
   targetSlot: Body
   snapDistance: 100
   correctSFX: {fileID: 0}
