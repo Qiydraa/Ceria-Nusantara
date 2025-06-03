@@ -847,8 +847,8 @@ MonoBehaviour:
   itemRegion: Papua
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
-  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
+  correctSFX: {fileID: 8300000, guid: 9b35f03c6fb2a8f46b5ac0d58b604959, type: 3}
+  wrongSFX: {fileID: 8300000, guid: a5f6a9d2f8421ab45bdf1676f0de6e1c, type: 3}
 --- !u!1 &293432969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,8 +2159,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
-  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
+  correctSFX: {fileID: 8300000, guid: 9b35f03c6fb2a8f46b5ac0d58b604959, type: 3}
+  wrongSFX: {fileID: 8300000, guid: a5f6a9d2f8421ab45bdf1676f0de6e1c, type: 3}
 --- !u!1 &780269597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,8 +2751,8 @@ MonoBehaviour:
   itemRegion: Jawa Tengah
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
-  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
+  correctSFX: {fileID: 8300000, guid: 9b35f03c6fb2a8f46b5ac0d58b604959, type: 3}
+  wrongSFX: {fileID: 8300000, guid: a5f6a9d2f8421ab45bdf1676f0de6e1c, type: 3}
 --- !u!1 &840525858
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,8 +3696,8 @@ MonoBehaviour:
   itemRegion: Bali
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
-  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
+  correctSFX: {fileID: 8300000, guid: 9b35f03c6fb2a8f46b5ac0d58b604959, type: 3}
+  wrongSFX: {fileID: 8300000, guid: a5f6a9d2f8421ab45bdf1676f0de6e1c, type: 3}
 --- !u!1 &1247963861
 GameObject:
   m_ObjectHideFlags: 0
@@ -4161,8 +4161,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
-  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
+  correctSFX: {fileID: 8300000, guid: 9b35f03c6fb2a8f46b5ac0d58b604959, type: 3}
+  wrongSFX: {fileID: 8300000, guid: a5f6a9d2f8421ab45bdf1676f0de6e1c, type: 3}
 --- !u!1 &1504381712
 GameObject:
   m_ObjectHideFlags: 0

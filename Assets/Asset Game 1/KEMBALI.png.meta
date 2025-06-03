@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KEMBALI_0: -7615740190425607364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

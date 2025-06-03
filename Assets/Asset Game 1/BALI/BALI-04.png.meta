@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BALI-04_0: 8024505797825391184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
