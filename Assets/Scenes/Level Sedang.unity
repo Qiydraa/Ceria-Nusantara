@@ -312,6 +312,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &42205416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42205418}
+  - component: {fileID: 42205417}
+  m_Layer: 0
+  m_Name: SceneManagerLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &42205417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42205416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb731ad6410dfb44b98ab13d18d2786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneButtons:
+  - button: {fileID: 700398479}
+    sceneName: Menu Level
+  - button: {fileID: 648330465}
+    sceneName: Level Sulit
+--- !u!4 &42205418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42205416}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.3919926, y: 2.080521, z: 90.10101}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &54598279
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,8 +453,8 @@ MonoBehaviour:
   itemRegion: Yogyakarta
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &54598285
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -735,7 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  region: DKI Jakarta
+  region: Yogyakarta
   slot: Head
 --- !u!1 &376116763
 GameObject:
@@ -803,8 +852,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!114 &376116767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1243,8 +1292,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &590774658
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1950,8 +1999,8 @@ MonoBehaviour:
   itemRegion: Bali
   targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1 &700398476
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,8 +2699,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!114 &818806456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3220,8 +3269,8 @@ MonoBehaviour:
   itemRegion: Jawa Tengah
   targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &1007169746
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -3636,8 +3685,8 @@ MonoBehaviour:
   itemRegion: Kalimantan
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!114 &1245571062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3761,8 +3810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31db1b1e4fe4a8044adcac97c6ab05ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  region: DKI Jakarta
-  slot: Head
+  region: Yogyakarta
+  slot: Celana
 --- !u!1 &1293327244
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,8 +3993,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!114 &1320545452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4370,8 +4419,8 @@ MonoBehaviour:
   itemRegion: Jawa Tengah
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &1437202918
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4575,8 +4624,8 @@ MonoBehaviour:
   itemRegion: Bali
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1 &1535416403
 GameObject:
   m_ObjectHideFlags: 0
@@ -4718,8 +4767,8 @@ MonoBehaviour:
   itemRegion: Yogyakarta
   targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &1634453323
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4824,8 +4873,8 @@ MonoBehaviour:
   itemRegion: Papua
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &1661941611
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4930,8 +4979,8 @@ MonoBehaviour:
   itemRegion: Papua
   targetSlot: Celana
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &1671514238
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5682,8 +5731,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &1878375778
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6106,8 +6155,8 @@ MonoBehaviour:
   itemRegion: DKI Jakarta
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!225 &1911473605
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -6299,8 +6348,8 @@ MonoBehaviour:
   itemRegion: Yogyakarta
   targetSlot: Head
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1 &2025842924
 GameObject:
   m_ObjectHideFlags: 0
@@ -6859,8 +6908,8 @@ MonoBehaviour:
   itemRegion: Jawa Tengah
   targetSlot: Body
   snapDistance: 100
-  correctSFX: {fileID: 0}
-  wrongSFX: {fileID: 0}
+  correctSFX: {fileID: 8300000, guid: aa10081da961eb44db05cb1c82f28e4f, type: 3}
+  wrongSFX: {fileID: 8300000, guid: 73f2a351daba79e4d8c23ce02bfeb08e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6870,3 +6919,4 @@ SceneRoots:
   - {fileID: 1357871839}
   - {fileID: 856788844}
   - {fileID: 1710073113}
+  - {fileID: 42205418}
