@@ -3,8 +3,8 @@ using UnityEngine.EventSystems;
 
 public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    public string itemRegion; // "Bali"
-    public string targetSlot; // "Head"
+    public string itemRegion;
+    public string targetSlot;
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -13,7 +13,7 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     private Vector3 originalPosition;
     private Transform originalParent;
 
-    public float snapDistance = 100f; // jarak maksimum untuk menempel
+    public float snapDistance = 100f;
 
     [Header("SFX")]
     public AudioClip correctSFX;
@@ -28,7 +28,6 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         originalPosition = rectTransform.localPosition;
         originalParent = transform.parent;
 
-        // Inisialisasi AudioSource dari kamera utama
         audioSource = Camera.main.GetComponent<AudioSource>();
         if (audioSource == null)
         {
@@ -41,7 +40,7 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.blocksRaycasts = false;
-        transform.SetParent(canvas.transform); // agar di atas UI lain
+        transform.SetParent(canvas.transform); // agar item di atas UI lain
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -58,14 +57,15 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // Cari drop zone terdekat yang cocok
         DropZone1 nearestMatch = null;
         float nearestDistance = float.MaxValue;
 
         foreach (DropZone1 zone in DropZone1.AllZones)
         {
             RectTransform zoneRect = zone.GetComponent<RectTransform>();
-            float distance = Vector2.Distance(rectTransform.position, zoneRect.position);
+
+            // GUNAKAN anchoredPosition untuk akurasi di UI
+            float distance = Vector2.Distance(rectTransform.anchoredPosition, zoneRect.anchoredPosition);
 
             if (distance < snapDistance &&
                 zone.region == itemRegion &&
@@ -84,24 +84,20 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             Debug.Log("✅ Berhasil ditempel ke zona: " + nearestMatch.name);
             AttachTo(nearestMatch.transform);
 
-            // 🔊 Mainkan suara benar
             if (correctSFX != null && audioSource != null)
                 audioSource.PlayOneShot(correctSFX);
 
-            // Cek apakah semua item sudah cocok
             FindObjectOfType<ContentManager>()?.CheckCompletion();
         }
         else
         {
-            Debug.Log("❌ Tidak cocok, kembali ke posisi awal.");
+            Debug.Log("❌ Tidak cocok atau terlalu jauh, kembali ke posisi awal.");
             ReturnToStart();
 
-            // 🔊 Mainkan suara salah
             if (wrongSFX != null && audioSource != null)
                 audioSource.PlayOneShot(wrongSFX);
         }
 
-        // Pastikan raycast diaktifkan kembali
         canvasGroup.blocksRaycasts = true;
     }
 
@@ -116,7 +112,7 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     {
         transform.SetParent(originalParent);
         rectTransform.localPosition = originalPosition;
-        gameObject.SetActive(true); // pastikan aktif
-        canvasGroup.blocksRaycasts = true; // pastikan bisa di-drag lagi
+        gameObject.SetActive(true);
+        canvasGroup.blocksRaycasts = true;
     }
 }

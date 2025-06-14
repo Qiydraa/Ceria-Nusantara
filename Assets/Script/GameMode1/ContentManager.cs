@@ -1,15 +1,44 @@
 using UnityEngine;
+using System.Collections;
 
 public class ContentManager : MonoBehaviour
 {
-    [Header("List konten budaya (Canvas sub-panel)")]
+    [Header("List konten budaya (Canvas sub-panel drag-drop)")]
     public GameObject[] Contents;
+
+    [Header("Panel Info & LipSync per konten")]
+    public GameObject[] InfoPanels;          // Panel penjelasan per konten
+    public LipSyncCharacter[] LipSyncs;      // LipSyncCharacter per konten
+
+    [Header("Audio Penjelasan per konten")]
+    public AudioClip[] ExplanationClips;     // Audio sesuai dengan urutan konten
 
     private int currentContentIndex = 0;
 
     private void Start()
     {
         ShowContent(0);
+
+        // Matikan semua panel info dan lip sync di awal
+        foreach (var panel in InfoPanels)
+        {
+            if (panel != null) panel.SetActive(false);
+        }
+
+        foreach (var lip in LipSyncs)
+        {
+            if (lip != null)
+            {
+                lip.enabled = false;
+                if (lip.audioSource != null) lip.audioSource.Stop();
+            }
+        }
+
+        // Cek kecocokan data
+        if (Contents.Length != InfoPanels.Length || Contents.Length != LipSyncs.Length || Contents.Length != ExplanationClips.Length)
+        {
+            Debug.LogWarning("Jumlah Contents, InfoPanels, LipSyncs, dan ExplanationClips harus sama.");
+        }
     }
 
     private void ShowContent(int index)
@@ -25,14 +54,12 @@ public class ContentManager : MonoBehaviour
     public void CheckCompletion()
     {
         GameObject currentContent = Contents[currentContentIndex];
-
         DropZone1[] zones = currentContent.GetComponentsInChildren<DropZone1>();
+
         foreach (DropZone1 zone in zones)
         {
             if (zone.transform.childCount == 0)
-            {
-                return; // Masih ada yang kosong
-            }
+                return;
 
             Transform child = zone.transform.GetChild(0);
             DragAndDropUI1 item = child.GetComponent<DragAndDropUI1>();
@@ -40,15 +67,51 @@ public class ContentManager : MonoBehaviour
             if (item == null ||
                 item.itemRegion != zone.region ||
                 item.targetSlot != zone.slot)
-            {
-                return; // Ada yang salah pasang
-            }
+                return;
         }
 
-        // ✅ Semua cocok
         Debug.Log("✅ Semua cocok untuk konten " + currentContentIndex);
 
-        Invoke("NextContent", 2f); // Lanjut setelah 2 detik
+        // Tampilkan panel info
+        if (InfoPanels.Length > currentContentIndex && InfoPanels[currentContentIndex] != null)
+            InfoPanels[currentContentIndex].SetActive(true);
+
+        // Aktifkan lip sync dan mainkan audio
+        if (LipSyncs.Length > currentContentIndex && LipSyncs[currentContentIndex] != null)
+        {
+            var lip = LipSyncs[currentContentIndex];
+            lip.enabled = true;
+
+            if (lip.audioSource != null && ExplanationClips.Length > currentContentIndex && ExplanationClips[currentContentIndex] != null)
+            {
+                lip.audioSource.clip = ExplanationClips[currentContentIndex];
+                lip.audioSource.Play();
+            }
+
+            StartCoroutine(WaitForLipSyncToEnd(lip));
+        }
+        else
+        {
+            // Jika tidak ada lipsync, lanjut otomatis
+            Invoke("NextContent", 2f);
+        }
+    }
+
+    private IEnumerator WaitForLipSyncToEnd(LipSyncCharacter lipSync)
+    {
+        while (lipSync.audioSource != null && lipSync.audioSource.isPlaying)
+        {
+            yield return null;
+        }
+
+        // Matikan panel info dan lip sync
+        if (InfoPanels.Length > currentContentIndex && InfoPanels[currentContentIndex] != null)
+            InfoPanels[currentContentIndex].SetActive(false);
+
+        if (lipSync != null)
+            lipSync.enabled = false;
+
+        NextContent();
     }
 
     private void NextContent()
@@ -62,7 +125,7 @@ public class ContentManager : MonoBehaviour
         else
         {
             Debug.Log("🎉 Semua konten selesai!");
-            // Bisa tambahkan transisi ke akhir game di sini
+            // Tambahkan scene akhir atau transisi di sini
         }
     }
 }
