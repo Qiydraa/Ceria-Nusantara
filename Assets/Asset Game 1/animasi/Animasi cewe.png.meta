@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Animasi cewe_0: 9064987927345802372
+      Animasi cewe_1: -6724793544264519318
+      Animasi cewe_2: -7412862520937767757
+      Animasi cewe_3: 7218940514767937736
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

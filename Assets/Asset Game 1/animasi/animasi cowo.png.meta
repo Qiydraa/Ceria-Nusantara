@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      animasi cowo_0: -7684115646497404831
+      animasi cowo_1: 5549987245918814702
+      animasi cowo_2: -162541312413372450
+      animasi cowo_3: -3705741388650434162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
