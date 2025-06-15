@@ -1,0 +1,12 @@
+# ninja log v5
+231	733	7716956890946467	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	ecc34d9f7d98c237
+735	1457	7716956897828787	C:/Users/User/OneDrive/Documents/Ceria-Nusantara/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/333r4z1q/obj/arm64-v8a/libswappywrapper.so	766e368b1b781cd2
+71	1735	7716956901192141	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	ad6b01541e852781
+27	1772	7716956901470562	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	3ebf4d9a7146a76f
+172	1817	7716956902146567	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	bcca5a26348fabfe
+134	1964	7716956903590668	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d58e25b327d944f2
+202	1968	7716956903469693	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	3404f58b4bc8b06a
+1	2006	7716956904098957	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	c513163824f5c3df
+103	2188	7716956905897718	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	397be51b48438658
+44	2344	7716956907474981	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	995d1cc498e16895
+2344	2541	7716956909486727	C:/Users/User/OneDrive/Documents/Ceria-Nusantara/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/333r4z1q/obj/arm64-v8a/libgame.so	177e4bc07bc4a4af

@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RUMPUT FULL_0: -6279103313707759223
+      RUMPUT FULL_1: -1982906322263128079
+      RUMPUT FULL_2: -3771942928663013897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
