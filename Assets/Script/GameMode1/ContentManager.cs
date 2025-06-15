@@ -7,11 +7,11 @@ public class ContentManager : MonoBehaviour
     public GameObject[] Contents;
 
     [Header("Panel Info & LipSync per konten")]
-    public GameObject[] InfoPanels;          // Panel penjelasan per konten
-    public LipSyncCharacter[] LipSyncs;      // LipSyncCharacter per konten
+    public GameObject[] InfoPanels;
+    public LipSyncCharacter[] LipSyncs;
 
     [Header("Audio Penjelasan per konten")]
-    public AudioClip[] ExplanationClips;     // Audio sesuai dengan urutan konten
+    public AudioClip[] ExplanationClips;
 
     [Header("VO Awal & Akhir")]
     public AudioClip voAwal;
@@ -19,6 +19,9 @@ public class ContentManager : MonoBehaviour
 
     public AudioClip voAkhir;
     public LipSyncCharacter lipSyncAkhir;
+
+    [Header("Konten Akhir")]
+    public GameObject contentAkhir;
 
     private int currentContentIndex = 0;
 
@@ -39,7 +42,13 @@ public class ContentManager : MonoBehaviour
             }
         }
 
-        // Cek kecocokan data
+        // Pastikan konten akhir tidak aktif
+        if (contentAkhir != null)
+        {
+            contentAkhir.SetActive(false);
+        }
+
+        // Validasi
         if (Contents.Length != InfoPanels.Length || Contents.Length != LipSyncs.Length || Contents.Length != ExplanationClips.Length)
         {
             Debug.LogWarning("Jumlah Contents, InfoPanels, LipSyncs, dan ExplanationClips harus sama.");
@@ -89,9 +98,7 @@ public class ContentManager : MonoBehaviour
             Transform child = zone.transform.GetChild(0);
             DragAndDropUI1 item = child.GetComponent<DragAndDropUI1>();
 
-            if (item == null ||
-                item.itemRegion != zone.region ||
-                item.targetSlot != zone.slot)
+            if (item == null || item.itemRegion != zone.region || item.targetSlot != zone.slot)
                 return;
         }
 
@@ -154,18 +161,31 @@ public class ContentManager : MonoBehaviour
 
     private IEnumerator PlayOutroVO()
     {
+        Debug.Log("▶️ Coroutine PlayOutroVO dipanggil");
+
         if (voAkhir != null && lipSyncAkhir != null && lipSyncAkhir.audioSource != null)
         {
             lipSyncAkhir.enabled = true;
             lipSyncAkhir.audioSource.clip = voAkhir;
             lipSyncAkhir.audioSource.Play();
 
+            Debug.Log("▶️ Memutar VO Akhir...");
+
             yield return new WaitWhile(() => lipSyncAkhir.audioSource.isPlaying);
 
             lipSyncAkhir.enabled = false;
+            Debug.Log("✅ VO Akhir selesai");
+        }
+        else
+        {
+            Debug.LogWarning("❌ Tidak dapat memutar VO Akhir. Cek apakah VO atau AudioSource belum diisi.");
         }
 
-        Debug.Log("✅ VO Akhir selesai. Tambahkan panel akhir atau transisi.");
-        // Tambahkan aksi setelah VO akhir, misal: pindah scene, tampilkan panel akhir, dsb.
+        // Tampilkan konten akhir
+        if (contentAkhir != null)
+        {
+            contentAkhir.SetActive(true);
+            Debug.Log("📌 Menampilkan konten akhir...");
+        }
     }
 }

@@ -3829,7 +3829,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &984534274
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5746,7 +5746,6 @@ MonoBehaviour:
   - {fileID: 798232525}
   - {fileID: 1574355036}
   - {fileID: 2062314079}
-  - {fileID: 984534273}
   InfoPanels:
   - {fileID: 1465758677}
   - {fileID: 577383728}
@@ -5765,6 +5764,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a764857c5f4433b4ea38843cbd0bf886, type: 3}
   - {fileID: 8300000, guid: bf37770da8be67845bfef0e059913c0e, type: 3}
   - {fileID: 8300000, guid: 9827f8d72002e774d8061a7d613511a5, type: 3}
+  voAwal: {fileID: 8300000, guid: ac24cfe6c21452c4fb1a1e826effe9a7, type: 3}
+  lipSyncAwal: {fileID: 840525864}
+  voAkhir: {fileID: 8300000, guid: 8169e8dafe169dd4da2a86d33d9016c5, type: 3}
+  lipSyncAkhir: {fileID: 840525864}
+  contentAkhir: {fileID: 984534273}
 --- !u!4 &1710073113
 Transform:
   m_ObjectHideFlags: 0
