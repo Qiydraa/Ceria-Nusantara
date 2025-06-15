@@ -20,6 +20,8 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     public AudioClip wrongSFX;
     private AudioSource audioSource;
 
+    private bool isLocked = false; // ✅ Tambahkan flag penguncian
+
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -39,12 +41,16 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (isLocked) return; // ✅ Jangan bisa drag kalau terkunci
+
         canvasGroup.blocksRaycasts = false;
         transform.SetParent(canvas.transform); // agar item di atas UI lain
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (isLocked) return; // ✅ Jangan gerak kalau terkunci
+
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(
             canvas.transform as RectTransform,
             eventData.position,
@@ -57,6 +63,8 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (isLocked) return; // ✅ Jangan proses jika terkunci
+
         DropZone1 nearestMatch = null;
         float nearestDistance = float.MaxValue;
 
@@ -64,7 +72,6 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         {
             RectTransform zoneRect = zone.GetComponent<RectTransform>();
 
-            // GUNAKAN anchoredPosition untuk akurasi di UI
             float distance = Vector2.Distance(rectTransform.anchoredPosition, zoneRect.anchoredPosition);
 
             if (distance < snapDistance &&
@@ -86,6 +93,8 @@ public class DragAndDropUI1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
             if (correctSFX != null && audioSource != null)
                 audioSource.PlayOneShot(correctSFX);
+
+            isLocked = true; // ✅ Kunci item setelah benar
 
             FindObjectOfType<ContentManager>()?.CheckCompletion();
         }
