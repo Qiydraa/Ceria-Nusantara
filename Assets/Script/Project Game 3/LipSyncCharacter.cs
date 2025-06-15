@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LipSyncCharacter : MonoBehaviour
@@ -10,6 +9,13 @@ public class LipSyncCharacter : MonoBehaviour
     public Sprite[] mouthSprites;
 
     private float[] spectrum = new float[64];
+
+    public void PlayVoiceOver(AudioClip clip)
+    {
+        if (clip == null || audioSource == null) return;
+        audioSource.clip = clip;
+        audioSource.Play();
+    }
 
     void Update()
     {

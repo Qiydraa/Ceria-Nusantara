@@ -13,12 +13,17 @@ public class ContentManager : MonoBehaviour
     [Header("Audio Penjelasan per konten")]
     public AudioClip[] ExplanationClips;     // Audio sesuai dengan urutan konten
 
+    [Header("VO Awal & Akhir")]
+    public AudioClip voAwal;
+    public LipSyncCharacter lipSyncAwal;
+
+    public AudioClip voAkhir;
+    public LipSyncCharacter lipSyncAkhir;
+
     private int currentContentIndex = 0;
 
     private void Start()
     {
-        ShowContent(0);
-
         // Matikan semua panel info dan lip sync di awal
         foreach (var panel in InfoPanels)
         {
@@ -39,6 +44,26 @@ public class ContentManager : MonoBehaviour
         {
             Debug.LogWarning("Jumlah Contents, InfoPanels, LipSyncs, dan ExplanationClips harus sama.");
         }
+
+        // Mulai dengan VO Awal
+        StartCoroutine(PlayIntroVO());
+    }
+
+    private IEnumerator PlayIntroVO()
+    {
+        if (voAwal != null && lipSyncAwal != null && lipSyncAwal.audioSource != null)
+        {
+            Debug.Log("▶️ Memutar VO Awal...");
+            lipSyncAwal.enabled = true;
+            lipSyncAwal.audioSource.clip = voAwal;
+            lipSyncAwal.audioSource.Play();
+
+            yield return new WaitWhile(() => lipSyncAwal.audioSource.isPlaying);
+
+            lipSyncAwal.enabled = false;
+        }
+
+        ShowContent(0); // Lanjut ke konten pertama
     }
 
     private void ShowContent(int index)
@@ -92,8 +117,7 @@ public class ContentManager : MonoBehaviour
         }
         else
         {
-            // Jika tidak ada lipsync, lanjut otomatis
-            Invoke("NextContent", 2f);
+            Invoke("NextContent", 2f); // Jika tidak ada lipsync, tunggu sebentar
         }
     }
 
@@ -104,7 +128,6 @@ public class ContentManager : MonoBehaviour
             yield return null;
         }
 
-        // Matikan panel info dan lip sync
         if (InfoPanels.Length > currentContentIndex && InfoPanels[currentContentIndex] != null)
             InfoPanels[currentContentIndex].SetActive(false);
 
@@ -124,8 +147,25 @@ public class ContentManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("🎉 Semua konten selesai!");
-            // Tambahkan scene akhir atau transisi di sini
+            Debug.Log("🎉 Semua konten selesai! Memutar VO akhir...");
+            StartCoroutine(PlayOutroVO());
         }
+    }
+
+    private IEnumerator PlayOutroVO()
+    {
+        if (voAkhir != null && lipSyncAkhir != null && lipSyncAkhir.audioSource != null)
+        {
+            lipSyncAkhir.enabled = true;
+            lipSyncAkhir.audioSource.clip = voAkhir;
+            lipSyncAkhir.audioSource.Play();
+
+            yield return new WaitWhile(() => lipSyncAkhir.audioSource.isPlaying);
+
+            lipSyncAkhir.enabled = false;
+        }
+
+        Debug.Log("✅ VO Akhir selesai. Tambahkan panel akhir atau transisi.");
+        // Tambahkan aksi setelah VO akhir, misal: pindah scene, tampilkan panel akhir, dsb.
     }
 }
