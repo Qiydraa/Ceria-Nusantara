@@ -343,7 +343,7 @@ Transform:
   m_GameObject: {fileID: 108995116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.7, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1269,8 +1269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.678, y: -44.783}
+  m_SizeDelta: {x: 449.057, y: 336.699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &274292528
 MonoBehaviour:
@@ -1299,13 +1299,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Wah teman teman hebat!\r\nTaukan kalian pakaian ini berasal dari Jakarta,
+    pakaian adatnya super keren banget kan, Busana ini disebut Sadaria biasanya Laki-laki
+    memakai baju koko berwarna putih, celana panjang warna gelap, dan kopiah hitam.\nPakaian
+    ini sering dipakai saat Festival Abang None, Pekan Raya Jakarta, dan pentas seni
+    budaya.\r\nWah, Jakarta\_penuh\_warna!"
 --- !u!222 &274292529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2059,8 +2063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -42.749}
+  m_SizeDelta: {x: 472.126, y: 346.198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423296717
 MonoBehaviour:
@@ -2084,18 +2088,23 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 23
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 300
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Hai teman-teman!\r\nTaukan kalian pakaian ini berasal dari Kalimantan,
+    pakaian adat yang super keren banget ya, namanya adalah Sapei Sapaq , \r\nPakaian
+    ini penuh dengan warna, dengan motif mencolok seperti merah, kuning, dan oranye.\r\r\nMereka
+    juga biasanya memakai hiasan kepala dari bulu burung Enggang, \r\nPakaian adat
+    ini dipakai saat upacara adat dan untuk menyambut tamu agung.\nWah, budaya Kalimantan
+    memang\_luar\_biasa!"
 --- !u!222 &423296718
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3053,8 +3062,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -92}
-  m_SizeDelta: {x: 312.333, y: 102.712}
+  m_AnchoredPosition: {x: 5, y: -125}
+  m_SizeDelta: {x: 455, y: 145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &588170192
 MonoBehaviour:
@@ -3620,7 +3629,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076294, y: 88}
+  m_AnchoredPosition: {x: -81, y: 111}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &632182624
@@ -3799,8 +3808,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -45.189}
+  m_SizeDelta: {x: 469.116, y: 343.045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &669831220
 MonoBehaviour:
@@ -3824,18 +3833,23 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 22
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 232
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Hai teman-teman!\r\nTaukan kalian pakaian ini berasal dari Kalimantan,
+    pakaian adat yang super keren ya, pakaian ini disebuat Ta\u2019a !\nbiasanya
+    Pakaian ini penuh warna, dan motif mencolok seperti merah, kuning, dan oranye.\r\nlengkap
+    dengan rok cantik dengan motif yang sama. Mereka juga memakai hiasan kepala dari
+    bulu burung Enggang, \r\nPakaian adat ini dipakai saat upacara adat dan untuk
+    menyambut tamu agung.\nWah, budaya Kalimantan memang luar biasa!"
 --- !u!222 &669831221
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3878,8 +3892,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.678, y: -47.498}
+  m_SizeDelta: {x: 462.627, y: 333.985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &672807557
 MonoBehaviour:
@@ -3908,13 +3922,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Wah teman-teman hebat !\r\nTaukan kalian pakaian ini berasal dari  Bali,
+    pakaian adatnya disebut Payas Alit.\nUntuk laki-laki, biasanya pakai baju safari
+    berwarna putih, kamen berwarna  kuning, dan udeng di kepala.\nPakaian ini dipakai
+    saat sembahyang, upacara adat, pernikahan, dan juga hari besar keagamaan.\r\nWah
+    Indah\_banget,\_ya!"
 --- !u!222 &672807558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4063,8 +4081,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 442.706, y: 341.701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &691274722
 MonoBehaviour:
@@ -4093,13 +4111,16 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Wah teman-teman hebat !\r\nTaukan kalian pakaian ini berasal dari  Bali,
+    pakaian adatnya disebut Payas Alit,\n\rbiasanya perempuan memakai kebaya Bali
+    dan kamen, lengkap dengan sabuk prada yang cantik!\nPakaian ini dipakai saat
+    sembahyang, upacara adat, pernikahan, dan juga hari besar keagamaan.\r\nIndah\_banget,\_ya!"
 --- !u!222 &691274723
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4142,8 +4163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.679, y: -46.14}
+  m_SizeDelta: {x: 457.199, y: 333.985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &695940109
 MonoBehaviour:
@@ -4167,18 +4188,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Halo sahabat budaya!\r\nTaukan kalian pakaian ini berasal dari Yogyakarta,
+    pakaian adat ini dikenal sebagai Busana Surjan Lurik \nLaki-laki biasanya memakai
+    kemeja lurik berlengan panjang, kain jarik, dan juga blankon di kepala.\nPakaian
+    ini biasanya dipakai saat upacara adat, terutama pernikahan tradisional Yogyakarta.\r\nberwibawa\_banget,\_ya!"
 --- !u!222 &695940110
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4896,8 +4920,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.679, y: -42.07}
+  m_SizeDelta: {x: 462.627, y: 328.556}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785551595
 MonoBehaviour:
@@ -4921,18 +4945,28 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 26
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: 'Hai semuanya!
+
+    Taukan kalian pakaian ini berasal dari Jawa Timur,
+    pakaian adatnya namanya adalah Kebaya Jawa Timur, perempuan biasanya tampil anggun
+    dengan kebaya gelap, bros bunga emas, dan jarik batik.
+
+    Pakaian ini biasanya
+    dipakai saat acara adat, pernikahan, dan kegiatan budaya.
+
+    Elegan banget,
+    ya !'
 --- !u!222 &785551596
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5467,7 +5501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5500,10 +5534,10 @@ RectTransform:
   - {fileID: 785551594}
   m_Father: {fileID: 787080042}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -49.12829, y: 117.71714}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &836964541
 GameObject:
@@ -5958,10 +5992,10 @@ RectTransform:
   - {fileID: 274292527}
   m_Father: {fileID: 2062314080}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65355}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &880137056
 MonoBehaviour:
@@ -5983,7 +6017,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6847,8 +6881,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 349, y: 14}
-  m_SizeDelta: {x: 474.207, y: 561.657}
+  m_AnchoredPosition: {x: 400, y: 15}
+  m_SizeDelta: {x: 585, y: 560}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &989920611
 MonoBehaviour:
@@ -7350,10 +7384,10 @@ RectTransform:
   - {fileID: 1488029928}
   m_Father: {fileID: 1346515673}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65355}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1103629840
 MonoBehaviour:
@@ -7375,7 +7409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7820,8 +7854,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.678, y: -43.426}
+  m_SizeDelta: {x: 449.057, y: 333.984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1191306277
 MonoBehaviour:
@@ -7850,13 +7884,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Halo teman-teman!\r\nTaukan kalian pakaian ini berasal dari Papua, pakaian
+    adatnya unik banget, lho!\nLaki-laki biasanya memakai rok rumbai dari daun sagu
+    kering, tanpa baju, dan dihiasi kalung biji buah matoa. Pakaian adat ini dipakai
+    saat upacara adat dan acara penting lainnya.\r\nWarna-warni dan penuh makna\u2014Papua
+    memang\_luar\_biasa!"
 --- !u!222 &1191306278
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8660,8 +8698,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -77.358, y: -36.644}
+  m_SizeDelta: {x: 452.831, y: 336.125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1346532835
 GameObject:
@@ -9452,8 +9490,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.679, y: -44.783}
+  m_SizeDelta: {x: 465.341, y: 342.127}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488029929
 MonoBehaviour:
@@ -9482,13 +9520,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Wah teman teman hebat!\r\nTaukan kalian pakaian ini berasal dari Jakarta,
+    pakaian adatnya super keren banget ya, pakaian ini disebut Kebaya Encim !\nperempuan
+    biasanya tampil anggun dengan kebaya berbordir bunga dan kain panjang bermotif
+    belah ketupat.\nPakaian ini sering dipakai saat Festival Abang None, Pekan Raya
+    Jakarta, dan pentas seni budaya.\r\nWah, Jakarta\_penuh\_warna!"
 --- !u!222 &1488029930
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9617,10 +9659,10 @@ RectTransform:
   - {fileID: 1591420745}
   m_Father: {fileID: 1574355037}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65355}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507659845
 MonoBehaviour:
@@ -9642,7 +9684,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9992,10 +10034,10 @@ RectTransform:
   - {fileID: 672807556}
   m_Father: {fileID: 1310814285}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65355}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1533942148
 MonoBehaviour:
@@ -10017,7 +10059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10107,8 +10149,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -1.31, y: -45.189}
+  m_SizeDelta: {x: 463.877, y: 335.187}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1591420746
 MonoBehaviour:
@@ -10132,18 +10174,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 26
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Hai semuanya!\r\nTaukan kalian pakaian ini berasal dari Jawa Timur, pakaian
+    adatnya disebut Jawi Jangkep untuk laki-laki biasanya memakai beskap hitam, jarik
+    batik, dan blangkon bermotif di kepala.\nPakaian ini biasanya dipakai saat acara
+    adat, pernikahan, dan kegiatan budaya.\r\nElegan banget, ya, seperti\_bangsawan\_Jawa!"
 --- !u!222 &1591420747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10291,10 +10336,10 @@ RectTransform:
   - {fileID: 423296716}
   m_Father: {fileID: 948389161}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65355}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1627494549
 MonoBehaviour:
@@ -10316,7 +10361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11194,10 +11239,10 @@ RectTransform:
   - {fileID: 1191306276}
   m_Father: {fileID: 1684331753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -49.12828, y: 117.71713}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1747172726
 MonoBehaviour:
@@ -11219,7 +11264,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11356,10 +11401,10 @@ RectTransform:
   - {fileID: 691274721}
   m_Father: {fileID: 1922460905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65349}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771616971
 MonoBehaviour:
@@ -11381,7 +11426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11433,7 +11478,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 156.128}
+  m_AnchoredPosition: {x: 5, y: 115}
   m_SizeDelta: {x: 350, y: 163.744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793461266
@@ -11894,10 +11939,10 @@ RectTransform:
   - {fileID: 695940108}
   m_Father: {fileID: 698581689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -49.12828, y: 117.71713}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1878960195
 MonoBehaviour:
@@ -11919,7 +11964,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12338,10 +12383,10 @@ RectTransform:
   - {fileID: 669831219}
   m_Father: {fileID: 798232526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65355}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918152949
 MonoBehaviour:
@@ -12363,7 +12408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12489,8 +12534,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -1.938, y: -48.249}
+  m_SizeDelta: {x: 470.053, y: 351.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1942917786
 MonoBehaviour:
@@ -12519,13 +12564,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Halo teman-teman!\r\nTaukan kalian pakaian ini berasal dari Papua, pakaian
+    adatnya unik banget, lho!\nPerempuan biasanya memakai baju kurung dan rok rumbai,
+    lengkap dengan hiasan kepala dari bulu burung kasuari!\nPakaian adatnya biasanya
+    dipakai saat upacara adat dan acara penting lainnya.\r\nWarna-warni dan penuh
+    makna\u2014Papua memang\_luar\_biasa!"
 --- !u!222 &1942917787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12567,10 +12616,10 @@ RectTransform:
   - {fileID: 1942917785}
   m_Father: {fileID: 1247963862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -73.8946, y: 175.65355}
-  m_SizeDelta: {x: 455.28503, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944942795
 MonoBehaviour:
@@ -12592,7 +12641,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13275,8 +13324,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -17.044, y: -5}
+  m_SizeDelta: {x: 134.085, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2117732556
 GameObject:
