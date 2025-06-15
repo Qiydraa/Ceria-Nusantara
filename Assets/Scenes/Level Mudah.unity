@@ -1879,10 +1879,10 @@ RectTransform:
   - {fileID: 1636232317}
   m_Father: {fileID: 1247963862}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -56.85202, y: 180.65298}
-  m_SizeDelta: {x: 421.19995, y: 452.58704}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577383730
 MonoBehaviour:
@@ -1904,7 +1904,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4298,7 +4298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1247963862
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4782,10 +4782,10 @@ RectTransform:
   - {fileID: 1902424593}
   m_Father: {fileID: 1922460905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -56.852005, y: 180.653}
-  m_SizeDelta: {x: 421.2, y: 452.587}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -77, y: 10}
+  m_SizeDelta: {x: 555, y: 555}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1465758679
 MonoBehaviour:
@@ -4807,7 +4807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0338b499d0e15147b83268eccc4aa00, type: 3}
+  m_Sprite: {fileID: 3575500410493657946, guid: 76737b6222684af4885fcb92f837b2b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5221,8 +5221,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 442.706, y: 341.701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1636232318
 MonoBehaviour:
@@ -5251,13 +5251,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Halo teman-teman!\r\nTaukan kalian pakaian ini berasal dari Papua, pakaian
+    adatnya unik banget, lho!\nPerempuan biasanya memakai baju kurung dan rok rumbai,
+    lengkap dengan hiasan kepala dari bulu burung kasuari!\nPakaian adatnya biasanya
+    dipakai saat upacara adat dan acara penting lainnya.\r\nWarna-warni dan penuh
+    makna\u2014Papua memang\_luar\_biasa!"
 --- !u!222 &1636232319
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6757,8 +6761,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 442.706, y: 341.701}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1902424594
 MonoBehaviour:
@@ -6787,13 +6791,17 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hallloooo
+  m_Text: "Wah teman-teman hebat !\r\nTaukan kalian pakaian ini berasal dari  Bali,
+    pakaian adatnya disebut Payas Alit.\nUntuk laki-laki, biasanya pakai baju safari
+    berwarna putih, kamen berwarna  kuning, dan udeng di kepala.\nPakaian ini dipakai
+    saat sembahyang, upacara adat, pernikahan, dan juga hari besar keagamaan.\r\nWah
+    Indah\_banget,\_ya!"
 --- !u!222 &1902424595
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6817,7 +6825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1922460905
 RectTransform:
   m_ObjectHideFlags: 0
