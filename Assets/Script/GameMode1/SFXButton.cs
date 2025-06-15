@@ -1,27 +1,55 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 
+[RequireComponent(typeof(AudioSource))]
 public class SFXButton : MonoBehaviour, IPointerClickHandler
 {
     public AudioClip clickSound;
-    private AudioSource audioSource;
+    public float delayBeforeAction = 0.3f; // Durasi delay sebelum aksi
 
-    void Start()
+    [Header("Aksi Setelah SFX")]
+    public UnityEvent onClickDelayed;
+
+    private static AudioSource sharedAudioSource;
+
+    private void Awake()
     {
-        audioSource = Camera.main.GetComponent<AudioSource>();
-        if (audioSource == null)
+        if (sharedAudioSource == null)
         {
-            GameObject audioObj = new GameObject("Audio Source");
-            audioSource = audioObj.AddComponent<AudioSource>();
+            GameObject audioObj = GameObject.Find("SFXAudioSource");
+            if (audioObj == null)
+            {
+                audioObj = new GameObject("SFXAudioSource");
+                sharedAudioSource = audioObj.AddComponent<AudioSource>();
+                DontDestroyOnLoad(audioObj);
+            }
+            else
+            {
+                sharedAudioSource = audioObj.GetComponent<AudioSource>();
+                if (sharedAudioSource == null)
+                    sharedAudioSource = audioObj.AddComponent<AudioSource>();
+            }
         }
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (clickSound != null && audioSource != null)
+        // 🔊 Langsung bunyikan SFX
+        if (clickSound != null && sharedAudioSource != null)
         {
-            audioSource.PlayOneShot(clickSound);
+            sharedAudioSource.PlayOneShot(clickSound);
         }
+
+        // ⏱ Jalankan aksi setelah delay
+        if (onClickDelayed != null)
+        {
+            Invoke(nameof(ExecuteDelayedAction), delayBeforeAction);
+        }
+    }
+
+    private void ExecuteDelayedAction()
+    {
+        onClickDelayed.Invoke();
     }
 }
