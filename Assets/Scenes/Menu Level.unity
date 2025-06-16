@@ -155,6 +155,8 @@ MonoBehaviour:
     sceneName: Level Sedang
   - button: {fileID: 602653785}
     sceneName: Mode Awal
+  - button: {fileID: 1054908121}
+    sceneName: Level Sulit
 --- !u!4 &92438340
 Transform:
   m_ObjectHideFlags: 0
