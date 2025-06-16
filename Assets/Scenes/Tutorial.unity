@@ -900,8 +900,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e25c93ea64042834c8cb6372f69e1de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickSound: {fileID: 8300000, guid: 7b80b78e11b83db448f7b14249f31806, type: 3}
-  delayBeforeAction: 0.3
+  clickSound: {fileID: 8300000, guid: abcacd1062873204789c18741a1d360a, type: 3}
+  delayBeforeAction: 0.2
   onClickDelayed:
     m_PersistentCalls:
       m_Calls:
